@@ -62,7 +62,7 @@ export default function NotesList({ NotesList, onDelete, onEdit }: Props) {
                   ></Form.Check>
                   <br />
                   <Stack direction="horizontal">
-                    <Button variant="danger" onClick={() => onDelete(note)}>
+                    <Button variant="danger" onClick={() => onDelete(note.id)}>
                       <BsFillTrash3Fill />
                     </Button>
 
